@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonni Topish O'yini</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Sonni Topish O'yini</h1>
+        <p>0 dan 100 gacha bo'lgan sonni o'yladim. Uni topa olasizmi?</p>
+        <input type="number" id="guessInput" placeholder="Sonni kiriting">
+        <button onclick="checkGuess()">Tekshirish</button>
+        <p id="feedback"></p>
+        <p id="attempts">Qolgan urinishlar: 6</p>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>

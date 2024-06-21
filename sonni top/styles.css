@@ -1,0 +1,81 @@
+/* Tanlangan shrift */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f06, #4a90e2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+}
+
+/* O'yin konteyneri */
+.game-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Sarlavha */
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Matn */
+p {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Kirish qutisi */
+input[type="number"] {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 20px 0;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input[type="number"]:focus {
+    border-color: #4a90e2;
+}
+
+/* Tugma */
+button {
+    padding: 15px 25px;
+    font-size: 18px;
+    color: #fff;
+    background: linear-gradient(135deg, #4a90e2, #0062cc);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 100%;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #0062cc, #4a90e2);
+}
+
+/* Fikr-mulohaza */
+#feedback {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Urinishlar */
+#attempts {
+    font-size: 18px;
+    margin-top: 10px;
+}
